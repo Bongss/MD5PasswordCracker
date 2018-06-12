@@ -17,17 +17,11 @@ public class PasswordCrackerMain {
         boolean isEarlyTermination = Boolean.parseBoolean(args[2]);
         String encryptedPassword = args[3];
         
-        // If you want to know the ExecutorService,
-        // refer to site; https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/ExecutorService.html
         ExecutorService workerPool = Executors.newFixedThreadPool(numThreads);
         PasswordFuture passwordFuture = new PasswordFuture();
         PasswordCrackerConsts consts = new PasswordCrackerConsts(numThreads, passwordLength, encryptedPassword);
 
-		/*
-         * create PasswordCrackerTask and use executor service to run in a separate thread
-		*/
         for (int i = 0; i < numThreads; i++) {
-            /** COMPLETE **/
             PasswordCrackerTask task = new PasswordCrackerTask(i, isEarlyTermination, consts, passwordFuture);
 			workerPool.submit(task, passwordFuture);
         }
@@ -42,31 +36,11 @@ public class PasswordCrackerMain {
     }
 }
 
-/**
- * A {@code Future} represents the result of an asynchronous
- * computation.  Methods are provided to check if the computation is
- * complete, to wait for its completion, and to retrieve the result of
- * the computation.  The result can only be retrieved using method
- * {@code get} when the computation has completed, blocking if
- * necessary until it is ready.  Cancellation is performed by the
- * {@code cancel} method.  Additional methods are provided to
- * determine if the task completed normally or was cancelled. Once a
- * computation has completed, the computation cannot be cancelled.
- * If you would like to use a {@code Future} for the sake
- * of cancellability but not provide a usable result, you can
- * declare types of the form {@code Future<?>} and
- * return {@code null} as a result of the underlying task.
- **/
-// If you want to know the Future class, refer to site; https://docs.oracle.com/javase/8/docs/api/java/util/concurrent/Future.html
-// Complete this class using a lock and the condition variable
 class PasswordFuture implements Future<String> {
     String result;
     Lock lock = new ReentrantLock();
     Condition resultSet = lock.newCondition(); // refer to Condition and Lock class in javadoc
 
-    /*  ### set ###
-     *  set the result and send signal to thread waiting for the result
-     */
     public void set(String result) {
         /** COMPLETE **/
         lock.lock();
@@ -78,13 +52,8 @@ class PasswordFuture implements Future<String> {
         }
     }
 
-    /*  ### get ###
-     *  if result is ready, return it.
-     *  if not, wait on the conditional variable.
-     */
     @Override
     public String get() throws InterruptedException, ExecutionException {
-        /** COMPLETE **/
         lock.lock();
         try {
             while (result == null) {
@@ -95,9 +64,6 @@ class PasswordFuture implements Future<String> {
             lock.unlock();
         }
     }
-    /*  ### isDone ###
-     *  returns true if result is set
-     */
     @Override
     public boolean isDone() {
         /** COMPLETE **/

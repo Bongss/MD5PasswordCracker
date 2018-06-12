@@ -5,9 +5,6 @@ import java.security.NoSuchAlgorithmException;
 
 import static PasswordCracker.PasswordCrackerConsts.*;
 
-// refer to Runnable class
-// site : https://docs.oracle.com/javase/8/docs/api/java/lang/Runnable.html
-
 public class PasswordCrackerTask implements Runnable {
     int taskId;
     boolean isEarlyTermination;
@@ -24,7 +21,6 @@ public class PasswordCrackerTask implements Runnable {
     
     @Override
     public void run() {
-        /** COMPLETE **/
         long subRange = consts.getPasswordSubRangeSize();
         long totalRange = consts.getPasswordTotalRangeSize();
         
@@ -41,12 +37,7 @@ public class PasswordCrackerTask implements Runnable {
         }
     }
    
-    /*	### findPasswordInRange	###
-     * The findPasswordInRange method find the original password using md5 hash function
-     * if a thread discovers the password, it returns original password string; otherwise, it returns null;
-    */
     public String findPasswordInRange(long rangeBegin, long rangeEnd, String encryptedPassword) {
-        /** COMPLETE **/
         MessageDigest messageDigest = getMessageDigest();
         
         int passwordLength = consts.getPasswordLength();
@@ -149,6 +140,3 @@ public class PasswordCrackerTask implements Runnable {
     }
  
 }
-
-
-

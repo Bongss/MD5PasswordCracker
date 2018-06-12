@@ -71,7 +71,6 @@ public class PasswordCrackerUtil {
         return null;
     }
 
-    //  ### transformDecToBase36 ###
     private static void transformDecToBase36(long numInDec, int[] numArrayInBase36) {
         long numPasswordCharsPowToI = (long) Math.pow(PASSWORD_CHARS.length(), PASSWORD_LEN - 1);
         for (int i = 0; i < PASSWORD_LEN; i++) {
@@ -81,7 +80,6 @@ public class PasswordCrackerUtil {
         }
     }
 
-    //  ### getNextCandidate ###
     private static void getNextCandidate(int[] candidateChars) {
         candidateChars[candidateChars.length - 1]++;
         for (int i = candidateChars.length - 1; i > 0; i--) {

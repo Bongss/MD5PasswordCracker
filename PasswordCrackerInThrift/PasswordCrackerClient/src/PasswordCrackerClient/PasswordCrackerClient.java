@@ -29,11 +29,8 @@ public class PasswordCrackerClient {
 
             TProtocol protocol = new TBinaryProtocol(transport);
             
-            //xxx : RPC 부분
-            // ---
             PasswordCrackerMasterService.Client passwordCrackerService = new PasswordCrackerMasterService.Client(protocol);
             String password = passwordCrackerService.decrypt(encryptedPassword);    // RPC decrypt Call
-            // ---
             System.out.println("encryptedPassword : " + encryptedPassword + "\npassword : " + password);
 
             transport.close();

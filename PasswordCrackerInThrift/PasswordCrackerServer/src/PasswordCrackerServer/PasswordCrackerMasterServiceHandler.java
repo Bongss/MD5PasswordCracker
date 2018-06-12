@@ -37,7 +37,6 @@ public class PasswordCrackerMasterServiceHandler implements PasswordCrackerMaste
         PasswordDecrypterJob decryptJob = new PasswordDecrypterJob();
         jobInfoMap.put(encryptedPassword, decryptJob);
         
-        /** COMPLETE **/
         requestFindPassword(encryptedPassword, 0, SUB_RANGE_SIZE);
         return decryptJob.getPassword();
     }
@@ -48,7 +47,6 @@ public class PasswordCrackerMasterServiceHandler implements PasswordCrackerMaste
     */
     @Override
     public void reportHeartBeat(String workerAddress) throws TException {
-        /** COMPLETE **/
         latestHeartbeatInMillis.put(workerAddress, System.currentTimeMillis());
     }
     
@@ -70,10 +68,7 @@ public class PasswordCrackerMasterServiceHandler implements PasswordCrackerMaste
                         new TBinaryProtocol.Factory(),
                         new TAsyncClientManager(),
                         new TNonblockingSocket(workerAddress, WORKER_PORT));
-                //---
-                /** COMPLETE **/
                 worker.startFindPasswordInRange(subRangeBegin, subRangeEnd, encryptedPassword, findPasswordCallBack);
-                //---
                 workerId++;
             }
             
@@ -88,7 +83,6 @@ public class PasswordCrackerMasterServiceHandler implements PasswordCrackerMaste
      * The redistributeFailedTask distributes the dead workers's job (or a set of possible password) to active workers.
      */
     public static void redistributeFailedTask(ArrayList<Integer> failedWorkerIdList) {
-        /** COMPLETE **/
         int numberOfWorker = workersAddressList.size() - failedWorkerIdList.size();
         TSocket workerSocket = null;
         for (int failWorkerId : failedWorkerIdList) {
@@ -117,7 +111,6 @@ public class PasswordCrackerMasterServiceHandler implements PasswordCrackerMaste
      *  you must think about when several workers is dead.
      */
     public static void checkHeartBeat() {
-        /** COMPLETE **/
         int workerId = 0;
         final long thresholdAge = 5_000;
         
@@ -155,7 +148,6 @@ class FindPasswordMethodCallback implements AsyncMethodCallback<PasswordCrackerW
     public void onComplete(PasswordCrackerWorkerService.AsyncClient.startFindPasswordInRange_call startFindPasswordInRange_call) {
         try {
             String findPasswordResult = startFindPasswordInRange_call.getResult();
-            /** COMPLETE **/
             if (findPasswordResult != null) {
                 PasswordDecrypterJob decrypterJob = jobInfoMap.get(jobId);
                 decrypterJob.setPassword(findPasswordResult);
@@ -175,7 +167,6 @@ class FindPasswordMethodCallback implements AsyncMethodCallback<PasswordCrackerW
      *  The jobTermination transfer the termination signal to workers in asynchronous way
      */
     private void jobTermination(String jobId) {
-        /** COMPLETE **/
         try {
             PasswordCrackerWorkerService.AsyncClient worker = null;
             for (String workerAddress : workersAddressList) {
