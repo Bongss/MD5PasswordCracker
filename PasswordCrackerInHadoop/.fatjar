@@ -1,0 +1,14 @@
+#Fat Jar Configuration File
+#Tue Nov 15 02:10:21 KST 2016
+onejar.license.required=true
+manifest.classpath=
+manifest.removesigners=false
+onejar.checkbox=false
+jarname=/usr/local/Cellar/hadoop/2.7.2/CrackerInHadoop.jar
+manifest.mergeall=false
+manifest.mainclass=com.bdsa.CrackerInHadoop.CrackerDriver
+manifest.file=<createnew>
+jarname.isextern=true
+onejar.expand=
+excludes=
+includes=

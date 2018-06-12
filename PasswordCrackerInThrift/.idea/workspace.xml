@@ -1,0 +1,1849 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="PasswordCrackerWorker:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d2a0eb13-e6ae-4501-9497-a5dcdd732419" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/artifacts/PasswordCrackerClient_jar.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PasswordCrackerClient/src/META-INF/MANIFEST.MF" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordDecrypterJob.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClientServiceHandler.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasswordCrackerClientService.thrift" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/ConnectionInfo.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerJob.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerTask.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/gen-java/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/PasswordCrackerClient/PasswordCrackerClientServiceHandler.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$AsyncClient$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$AsyncClient$progressReport_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$AsyncClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$AsyncIface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$AsyncProcessor$progressReport$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$AsyncProcessor$progressReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$AsyncProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$Client$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$Iface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$Processor$progressReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$Processor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_args$progressReport_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_args$progressReport_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_args$progressReport_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_args$progressReport_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_result$progressReport_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_result$progressReport_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_result$progressReport_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_result$progressReport_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService$progressReport_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$heartBeat_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$heartBeat$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$heartBeat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$heartBeat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_args$heartBeat_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_args$heartBeat_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_args$heartBeat_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_args$heartBeat_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_result$heartBeat_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_result$heartBeat_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_result$heartBeat_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_result$heartBeat_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$heartBeat_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient$getOperationCount_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient$startFindPasswordInRange_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient$terminationReport_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncIface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$getOperationCount$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$getOperationCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$startFindPasswordInRange$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$startFindPasswordInRange.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$terminationReport$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$terminationReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Client$Factory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Client.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Iface.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor$getOperationCount.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor$startFindPasswordInRange.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor$terminationReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_args$getOperationCount_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_args$getOperationCount_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_args$getOperationCount_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_args$getOperationCount_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_result$getOperationCount_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_result$getOperationCount_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_result$getOperationCount_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_result$getOperationCount_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$getOperationCount_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_args$startFindPasswordInRange_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_args$startFindPasswordInRange_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_args$startFindPasswordInRange_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_args$startFindPasswordInRange_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_result$startFindPasswordInRange_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_result$startFindPasswordInRange_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_result$startFindPasswordInRange_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_result$startFindPasswordInRange_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$startFindPasswordInRange_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/ConnectionInfo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerJob.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerTask.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$transferHeartBeat_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$transferProgressReport_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferHeartBeat$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferHeartBeat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferProgressReport$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferProgressReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$transferHeartBeat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$transferProgressReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient$terminationReport_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$terminationReport$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$terminationReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor$terminationReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$transferHeartBeat_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$transferProgressReport_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferHeartBeat$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferHeartBeat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferProgressReport$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$transferProgressReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$transferHeartBeat.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$transferProgressReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args$transferHeartBeat_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result$transferHeartBeat_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferHeartBeat_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args$transferProgressReport_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result$transferProgressReport_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$transferProgressReport_result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient$terminationReport_call.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$terminationReport$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor$terminationReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor$terminationReport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args$terminationReport_argsTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_args.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$_Fields.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultStandardScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultStandardSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultTupleScheme.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result$terminationReport_resultTupleSchemeFactory.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$terminationReport_result.class" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/PasswordCrackerClient/PasswordCrackerClient.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/PasswordCrackerClient/PasswordCrackerClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$1.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncIface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncIface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Iface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Iface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerClient/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/FindPasswordMethodCallback.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/FindPasswordMethodCallback.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerConts.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerConts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerMasterServiceHandler.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerMasterServiceHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerServerMain.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerServerMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerTransport.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/PasswordCrackerServer/PasswordCrackerTransport.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$1.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$Factory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$decrypt_call.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$decrypt_call.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncIface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncIface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt$1.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client$Factory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Iface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Iface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$decrypt.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$decrypt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$_Fields.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$_Fields.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$1.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncIface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncIface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Client.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Iface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Iface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerServer/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerConts.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerConts.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerUtil.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerWorkerMain.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerWorkerMain.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerWorkerServiceHandler.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/PasswordCrackerWorker/PasswordCrackerWorkerServiceHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$1.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$Factory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$decrypt_call.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient$decrypt_call.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncIface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncIface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt$1.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor$decrypt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$AsyncProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client$Factory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client$Factory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Iface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Iface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$decrypt.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor$decrypt.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$Processor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$_Fields.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args$decrypt_argsTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_args.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$_Fields.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$_Fields.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultStandardSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleScheme.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleScheme.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleSchemeFactory.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result$decrypt_resultTupleSchemeFactory.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService$decrypt_result.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$1.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncIface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncIface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$AsyncProcessor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Client.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Client.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Iface.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Iface.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService$Processor.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.class" afterPath="$PROJECT_DIR$/out/production/PasswordCrackerWorker/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ThriftTest/NonblockingClient.class" afterPath="$PROJECT_DIR$/out/production/ThriftTest/NonblockingClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/ThriftTest/NonblockingServer.class" afterPath="$PROJECT_DIR$/out/production/ThriftTest/NonblockingServer.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClient.java" afterPath="$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" afterPath="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerMasterService.thrift" afterPath="$PROJECT_DIR$/PasswordCrackerMasterService.thrift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerServer/WorkerInfoList.json" afterPath="$PROJECT_DIR$/PasswordCrackerServer/WorkerInfoList.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerConts.java" afterPath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerConts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerMasterServiceHandler.java" afterPath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerMasterServiceHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerServerMain.java" afterPath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerServerMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerTransport.java" afterPath="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerTransport.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" afterPath="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" afterPath="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerConts.java" afterPath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerConts.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerUtil.java" afterPath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerUtil.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerMain.java" afterPath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerMain.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerServiceHandler.java" afterPath="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerServiceHandler.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" afterPath="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" afterPath="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PasswordCrackerWorkerService.thrift" afterPath="$PROJECT_DIR$/PasswordCrackerWorkerService.thrift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/ThriftTest/src/NonblockingClient.java" afterPath="$PROJECT_DIR$/ThriftTest/src/NonblockingClient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen-java/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" afterPath="$PROJECT_DIR$/gen-java/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen-java/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" afterPath="$PROJECT_DIR$/gen-java/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" />
+    </list>
+    <ignored path="PasswordCrackerInThrift.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="PasswordCrackerInThrift" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="PasswordCrackerWorkerServiceHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerServiceHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordCrackerMasterServiceHandler.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerMasterServiceHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordCrackerClient.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordDecrypterJob.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordDecrypterJob.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordCrackerServerMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerServerMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordCrackerWorkerMain.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="607">
+              <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordCrackerUtil.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="67">
+              <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkerInfoList.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/WorkerInfoList.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="15">
+              <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordCrackerConts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerConts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PasswordCrackerConts.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerConts.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindBugs-IDEA-Workspace">
+    <toolWindowEditorPreview>false</toolWindowEditorPreview>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GradleLocalSettings">
+    <option name="externalProjectsViewState">
+      <projects_view />
+    </option>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClientMain.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerService/PasswordCrackerService.java" />
+        <option value="$PROJECT_DIR$/ThriftTest/src/ThriftTestMain.java" />
+        <option value="$PROJECT_DIR$/ThriftAsyncTest.thrift" />
+        <option value="$PROJECT_DIR$/ThriftTest/src/ArithmeticService.java" />
+        <option value="$PROJECT_DIR$/ThriftTest/src/ArithmeticServiceImpl.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/WorkerInfo.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerRunnable.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerService.thrift" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerService/PasswordCrackerService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerService/PasswordCrackerService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerService/PasswordCrackerService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerServiceHandler.java" />
+        <option value="$PROJECT_DIR$/ThriftTest/src/PasswordCrackerService/PasswordCrackerTransport.java" />
+        <option value="$PROJECT_DIR$/ThriftTest/src/AsyncClient.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerService/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClientServiceHandler.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerHeartBeat.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/ConnectionInfo.java" />
+        <option value="$PROJECT_DIR$/ThriftTest/src/NonblockingServer.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/WorkerInfo.json" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/WorkerInfoList.json" />
+        <option value="$PROJECT_DIR$/gen-java/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerJob.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorkerService.thrift" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerTask.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClientService.thrift" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java" />
+        <option value="$PROJECT_DIR$/ThriftTest/src/NonblockingClient.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerConts.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerMasterService.thrift" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerTransport.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerConts.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerServerMain.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClient.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerMain.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordDecrypterJob.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerUtil.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerServiceHandler.java" />
+        <option value="$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerMasterServiceHandler.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/Cellar/maven/3.3.9/libexec" />
+        <option name="outputLevel" value="DEBUG" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="1280" />
+    <option name="height" value="800" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>JSON</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>JsonStandardCompliance</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerWorker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerWorker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerWorker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerWorker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerWorkerServiceHandler.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerWorker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerWorker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerMasterServiceHandler.java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerInThrift3" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="PasswordCrackerClient" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="FullScreen" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/../PasswordCrackerInThrift.thrift" />
+      <recent name="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerService" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="PasswordCrackerService" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerMasterService" />
+      <recent name="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerMasterService" />
+      <recent name="$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerWorkerService" />
+      <recent name="$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerWorkerService" />
+      <recent name="$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerMasterService" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.PasswordCrackerServerMain">
+    <configuration default="false" name="PasswordCrackerServerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PasswordCrackerServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="PasswordCrackerServer.PasswordCrackerServerMain" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PasswordCrackerServer" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PasswordCrackerWorkerMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PasswordCrackerWorker.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="PasswordCrackerWorker.PasswordCrackerWorkerMain" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PasswordCrackerWorker" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PasswordCrackerClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PasswordCrackerClient.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="PasswordCrackerClient.PasswordCrackerClient" />
+      <option name="VM_PARAMETERS" value="" />
+      <option name="PROGRAM_PARAMETERS" value="10.64.149.222 o0000010" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PasswordCrackerClient" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="NonblockingClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="NonblockingClient" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ThriftTest" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="PasswordCrackerServer in PasswordCrackerServer" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="PasswordCrackerServer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="PasswordCrackerServer" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="PasswordCrackerServer" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="EXTRA_OPTIONS" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="DEBUGGER_TYPE" value="Java" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <Java />
+      <Profilers>
+        <option name="GAPID_DISABLE_PCS" value="false" />
+      </Profilers>
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <module />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Java Scratch" factoryName="Java Scratch">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SCRATCH_FILE_ID" value="0" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="PasswordCrackerInThrift" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNGTestDiscovery" factoryName="TestNG Test Discovery" changeList="All">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Application.PasswordCrackerServerMain" />
+      <item index="1" class="java.lang.String" itemvalue="Application.PasswordCrackerWorkerMain" />
+      <item index="2" class="java.lang.String" itemvalue="Application.PasswordCrackerClient" />
+      <item index="3" class="java.lang.String" itemvalue="Application.NonblockingClient" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.PasswordCrackerServer in PasswordCrackerServer" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.PasswordCrackerClient" />
+        <item index="1" class="java.lang.String" itemvalue="Application.PasswordCrackerServerMain" />
+        <item index="2" class="java.lang.String" itemvalue="Application.NonblockingClient" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.PasswordCrackerServer in PasswordCrackerServer" />
+        <item index="4" class="java.lang.String" itemvalue="Application.PasswordCrackerWorkerMain" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d2a0eb13-e6ae-4501-9497-a5dcdd732419" name="Default" comment="" />
+      <created>1479256987966</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1479256987966</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="PasswordCrackerServer_in_PasswordCrackerServer - 2016.11.24 at 17h 29m 51s.xml">
+      <configuration name="PasswordCrackerServer in PasswordCrackerServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PasswordCrackerServer_in_PasswordCrackerServer - 2016.12.01 at 19h 38m 29s.xml">
+      <configuration name="PasswordCrackerServer in PasswordCrackerServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PasswordCrackerServer_in_PasswordCrackerServer - 2016.12.01 at 19h 38m 32s.xml">
+      <configuration name="PasswordCrackerServer in PasswordCrackerServer" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="PasswordCrackerServer_in_PasswordCrackerServer - 2016.12.01 at 19h 38m 34s.xml">
+      <configuration name="PasswordCrackerServer in PasswordCrackerServer" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1280" height="800" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="PlantUML" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.4967742" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="simpleUML" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="FindBugs-IDEA" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22759601" sideWeight="0.58225805" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32983872" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22759601" sideWeight="0.41774192" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.4967742" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859176" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32721713" sideWeight="0.4967742" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.21854839" sideWeight="0.4859287" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Tail" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24182077" sideWeight="0.42016128" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18548387" sideWeight="0.5140713" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3257468" sideWeight="0.4887097" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32290184" sideWeight="0.4935484" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../thrift-0.9.3/lib/java/build/libthrift-0.9.3.jar!/org/apache/thrift/server/TThreadPoolServer.class</url>
+          <line>160</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar://$PROJECT_DIR$/../../thrift-0.9.3/lib/java/build/libthrift-0.9.3.jar!/org/apache/thrift/server/TThreadPoolServer.class</url>
+          <line>231</line>
+          <properties />
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ThreadPoolExecutor.java</url>
+          <line>1306</line>
+          <properties />
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+      </breakpoints>
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="189" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerClientService/PasswordCrackerClientService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="37" column="13" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/Queue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="33" selection-end-line="30" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../thrift-0.9.3/lib/java/build/libthrift-0.9.3.jar!/org/apache/thrift/server/TThreadedSelectorServer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="421" column="44" selection-start-line="421" selection-start-column="44" selection-end-line="421" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerInThrift.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen-java/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="806" column="85" selection-start-line="806" selection-start-column="85" selection-end-line="806" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/TimeUnit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="685">
+          <caret line="378" column="16" selection-start-line="378" selection-start-column="16" selection-end-line="378" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="283">
+          <caret line="261" column="6" selection-start-line="261" selection-start-column="6" selection-end-line="261" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/Future.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="150" column="6" selection-start-line="150" selection-start-column="6" selection-end-line="150" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThriftTest/src/AsyncClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" column="24" selection-start-line="29" selection-start-column="24" selection-end-line="29" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../thrift-0.9.3/lib/java/build/libthrift-0.9.3.jar!/org/apache/thrift/transport/TNonblockingServerSocket.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="28" column="11" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="214" column="34" selection-start-line="214" selection-start-column="34" selection-end-line="214" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerTask.java" />
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="110" column="19" selection-start-line="110" selection-start-column="19" selection-end-line="110" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="464">
+          <caret line="359" column="15" selection-start-line="359" selection-start-column="15" selection-end-line="359" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/BrokenBarrierException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="94">
+          <caret line="47" column="13" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="239">
+          <caret line="123" column="36" selection-start-line="123" selection-start-column="36" selection-end-line="123" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="136" column="28" selection-start-line="136" selection-start-column="28" selection-end-line="136" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/json-simple-1.1.1.jar!/org/json/simple/parser/JSONParser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ScheduledExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1800">
+          <caret line="153" column="30" selection-start-line="153" selection-start-column="30" selection-end-line="153" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerClientService.thrift" />
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClientServiceHandler.java" />
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerClient/PasswordCrackerClient.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="1184" column="0" selection-start-line="1184" selection-start-column="0" selection-end-line="1184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/AbstractMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="67" column="22" selection-start-line="67" selection-start-column="22" selection-end-line="67" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/net/PlainSocketImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="104" column="16" selection-start-line="104" selection-start-column="16" selection-end-line="104" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/invoke/DirectMethodHandle.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3360">
+          <caret line="269" column="0" selection-start-line="269" selection-start-column="0" selection-end-line="269" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/lang/invoke/LambdaForm.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/AbstractExecutorService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1110">
+          <caret line="109" column="0" selection-start-line="109" selection-start-column="0" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../thrift-0.9.3/lib/java/build/libthrift-0.9.3.jar!/org/apache/thrift/async/TAsyncMethodCall.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1710">
+          <caret line="146" column="0" selection-start-line="146" selection-start-column="0" selection-end-line="146" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../thrift-0.9.3/lib/java/build/libthrift-0.9.3.jar!/org/apache/thrift/async/TAsyncClientManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1350">
+          <caret line="114" column="42" selection-start-line="114" selection-start-column="42" selection-end-line="114" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThriftTest/src/NonblockingClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorkerService.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="19" selection-start-line="7" selection-start-column="19" selection-end-line="7" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerMasterService.thrift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1470">
+          <caret line="133" column="20" selection-start-line="133" selection-start-column="14" selection-end-line="133" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5025">
+          <caret line="394" column="29" selection-start-line="394" selection-start-column="26" selection-end-line="394" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerClient/src/thrift/gen/PasswordCrackerMasterService/PasswordCrackerMasterService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="75" column="18" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/thrift/gen/PasswordCrackerWorkerService/PasswordCrackerWorkerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="177" column="16" selection-start-line="177" selection-start-column="16" selection-end-line="177" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/ConcurrentHashMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="751" column="0" selection-start-line="751" selection-start-column="0" selection-end-line="751" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/src.zip!/java/util/concurrent/CompletableFuture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3960">
+          <caret line="301" column="20" selection-start-line="301" selection-start-column="20" selection-end-line="301" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/../../thrift-0.9.3/lib/java/build/libthrift-0.9.3.jar!/org/apache/thrift/transport/TTransport.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="10" column="22" selection-start-line="10" selection-start-column="22" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerTransport.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="33" column="20" selection-start-line="33" selection-start-column="20" selection-end-line="33" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordDecrypterJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerConts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerConts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="34" selection-start-line="7" selection-start-column="34" selection-end-line="7" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerMasterServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="31" column="5" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/src/PasswordCrackerServer/PasswordCrackerServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerServer/WorkerInfoList.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="2" selection-start-line="1" selection-start-column="2" selection-end-line="1" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="67">
+          <caret line="72" column="0" selection-start-line="72" selection-start-column="0" selection-end-line="72" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="607">
+          <caret line="89" column="0" selection-start-line="89" selection-start-column="0" selection-end-line="89" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerWorker/src/PasswordCrackerWorker/PasswordCrackerWorkerServiceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="37" column="86" selection-start-line="37" selection-start-column="86" selection-end-line="37" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PasswordCrackerClient/src/PasswordCrackerClient/PasswordCrackerClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="32" column="14" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>PasswordCrackerClient:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PasswordCrackerServer</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="simpleUML.UMLToolWindowPlugin">
+    <General>
+      <option name="birdViewUpdateDelay" value="2000" />
+      <option name="defaultFileLocation" value="file://$PROJECT_DIR$/.." />
+    </General>
+    <Classdiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="defaultFieldsExpanded" value="false" />
+      <option name="defaultContructorsExpanded" value="false" />
+      <option name="defaultMethodsExpanded" value="false" />
+      <option name="showParameters" value="true" />
+      <option name="showTooltip" value="true" />
+      <option name="showReturnValues" value="true" />
+      <option name="longModifier" value="true" />
+      <option name="implementsBehaviour" value="1" />
+      <option name="extendsBehaviour" value="1" />
+      <option name="compartmentBehaviour" value="1" />
+      <option name="interfaceBackgroundColor" value="-6494306" />
+      <option name="abstractClassBackgroundColor" value="-1580132" />
+      <option name="classBackgroundColor" value="-6508057" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="quickSourceLinkColor" value="-16776961" />
+      <option name="quickDiagramLinkColor" value="-8454144" />
+      <option name="drawDecorations" value="false" />
+      <option name="hideFieldList" value="" />
+      <option name="showFieldList" value="" />
+      <option name="hideConstructorList" value="" />
+      <option name="showConstructorList" value="" />
+      <option name="hideMethodList" value="" />
+      <option name="showMethodList" value="" />
+      <option name="minimumFigureSize" value="0,0" />
+    </Classdiagram>
+    <Dependencydiagram>
+      <option name="diagramTitleFont" value="SansSerif,1,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="0" />
+    </Dependencydiagram>
+    <Packagediagram>
+      <option name="diagramTitleFont" value="SansSerif,0,12" />
+      <option name="diagramFont" value="SansSerif,0,10" />
+      <option name="packageBackgroundColor" value="-4144960" />
+      <option name="diagramBackgroundColor" value="-1" />
+      <option name="useAntialiasedConnectors" value="true" />
+      <option name="packageNameCompressionLevel" value="2" />
+    </Packagediagram>
+  </component>
+</project>
