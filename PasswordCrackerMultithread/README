@@ -1,0 +1,16 @@
+Usage Examples
+1. ant build
+2. commandline> java -jar PasswordCrackerMultithread.jar [numThreads] [passwordLength] [isEarlyTermination] [enryptedPassword]
+
+ex1)
+command line> java -jar PasswordCrackerMultithraed.jar 4 6 true c4b9942f2886cd34fce932f279000ef3
+
+output is
+Password : 1294ab
+
+ex2)
+command line> java -jar PasswordCrackerMultitherad.jar 2 6 true f92f8fa7fd6a5fa45d53227ffec0d6ac
+
+output is
+Password : 2nowbv 
+
